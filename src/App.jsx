@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Suspense fallback={<h2>Countries are Loading.....</h2>}>
+      <Suspense fallback={<h2 className='py-12 text-[40px] font-[700] text[#141414]'>Countries are Loading.....</h2>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
     </>
